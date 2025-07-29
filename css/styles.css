@@ -1,0 +1,50 @@
+
+/* body */
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1,5;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+ /* header */
+
+ h1, h2, h3 {
+font-family: "Raleway", sans-serif}
+
+ ul {list-style-type: none;}
+
+ a {text-decoration: none;
+    color: currentColor}
+
+.header{
+
+}
+
+.header-nav { 
+
+}
+
+.header-nav-logo {
+
+}
+
+.header-nav-logo-span {
+    color: #4d5ae5;
+}
+
+.header-nav-list {
+
+}
+
+.header-social-list {
+
+}
+
+.header-social-list-item {
+
+}
+
+/* button */
+

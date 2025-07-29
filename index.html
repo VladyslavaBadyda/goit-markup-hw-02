@@ -5,13 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
+<!--body-->
+
 <body>
-    <header>
-        <nav>
-            <a href="./index.html">WebStudio</a>
-            <ul>
+    <header class="header">
+        <nav class="header-nav">
+            <a href="./index.html"class="header-nav-logo"><span class="header-nav-logo-span">Web</span>Studio</a> 
+            <ul class="header-nav-list">
                 <li>
                     <a href="studio">Studio</a>
                 </li>
@@ -24,22 +36,27 @@
             </ul>
         </nav>
         <address>
-            <ul>
-                <li>
+            <ul class="header-social-list">
+                <li class="header-social-list-item">
                     <a href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li>
+                <li class="header-social-list-item">
                     <a href="tel:+110001111111">+11 (000) 111-11-11</a>
                 </li>
             </ul>
         </address>
     </header>
+     
+    <!--button-->
 
     <main>
-        <section>
+        <section class="">
             <h1>Effective Solutions for Your Business </h1>
             <button type="button">Order Service</button>
         </section>
+
+        <!--points-->
+
         <section>
             <h2>
                 #
@@ -75,6 +92,8 @@
             </ul>
         </section>
 
+        <!--team-->
+
         <section>
             <h2>Our Team</h2>
             <ul>
@@ -100,6 +119,8 @@
                 </li>
             </ul>
         </section>
+
+        <!--portfolio-->
         
         <section>
             <h2>Our Portfolio</h2>
@@ -137,6 +158,8 @@
             </ul>
         </section>
     </main>
+
+    <!--footer-->
 
     <footer>
         <a href="./index.html">WebStudio</a>
