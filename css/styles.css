@@ -43,15 +43,13 @@ list-style-type: none;
 }
 
 .button {
+font-family: "Roboto", sans-serif ;
 border: none;
-border-radius: 4px;
-padding: 16px 32px;
-width: 169px;
-height: 56px;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background-color: var(--color-iris);
 font-weight: 500;
 font-size: 16px;
+line-height: 1.5 ;
+letter-spacing: 0.04em ;
 color: var(--color-white);
 cursor: pointer;
 }
@@ -79,17 +77,23 @@ color: var(--color-navy-blue);
 .header-nav-studio {
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--color-iris);
+}
+
+.header-nav-logo-span {
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 color: var(--color-navy-blue);
 }
 
-.header-nav-logo-span { 
-color: var(--color-iris);
-font-weight: 700;
-font-size: 18px;
-line-height: 21px;
-letter-spacing: 0.03em;
+.header-address {
+font-style: normal ;
 }
 
 .header-nav-list {
@@ -120,8 +124,7 @@ color: var(--color-slate);
 //=======================SECTION-1=======================//
 
 .business {
-width: 1440px ;
-height: 600px ;
+
 }
 
 .business {
@@ -131,7 +134,7 @@ height: 600px ;
 .business-text {
 font-weight: 700;
 font-size: 56px;
-line-height: 60px;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: var(--color-white);
@@ -141,11 +144,11 @@ color: var(--color-white);
 //=======================SECTION-2=======================//
 
 .points-one {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--color-navy-blue);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-navy-blue);
 }
 
 .points-one-text {
@@ -158,12 +161,21 @@ color: var(--color-slate);
 
 //=======================SECTION-3=======================//
 
+.section-team {
+ background-color: var(--color-cloud);
+}
+
 .card {
-font-weight: 700;
-font-size: 36px;
-line-height: 40px;
-letter-spacing: 0.02em;
-color: var(--color-navy-blue);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-navy-blue);
+}
+
+.card-li {
+background-color: var(--color-white);
 }
 
 .card-hero {
@@ -175,7 +187,7 @@ color: var(--color-navy-blue);
 }
 
 .card-hero-text {
-    font-weight: 400;
+font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
@@ -187,9 +199,10 @@ color: var(--color-slate);
 .portfolio {
 font-weight: 700;
 font-size: 36px;
-line-height: 40px;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize ;
 color: var(--color-navy-blue);
 }
 
@@ -204,7 +217,17 @@ color: var(--color-navy-blue);
 .portfolio-h-text {
 font-weight: 400;
 font-size: 16px;
-line-height 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-slate);
 }
+
+//==================FOOTER=====================//
+
+
+
+
+
+
+
+
