@@ -1,50 +1,211 @@
+:root {
+/* fonts */
+--main-font:"Roboto", sans-serif;
 
-/* body */
-
-body {
-    font-family: "Roboto", sans-serif;
-    line-height: 1,5;
-    color: #434455;
-    background-color: #ffffff;
+/* colors */
+--color-iris: #4D5AE5 ;
+--color-ocean: #404BBF ;
+--color-navy-blue: #2E2F42 ;
+--color-green: #31D0AA ;
+--color-slate: #434455 ;
+--color-light-slate: #8E8F99 ;
+--color-cornflower: #E7E9FC ;
+--color-cloud: #F4F4FD ;
+--color-navy-blue-modal: #2E2F42 ;
+--color-grey: #2E2F42 ;
+--color-white: #ffffff ;
+--color-dairy: #FCFCFC ;
 }
 
- /* header */
+//=======================BODY=========================//
+
+body {
+font-family: "Roboto", sans-serif;
+line-height: 1.5;
+color: var(--color-navy-blue);
+background-color: var(--color-white);
+}
 
  h1, h2, h3 {
-font-family: "Raleway", sans-serif}
+font-family: "Raleway", sans-serif;
+}
 
- ul {list-style-type: none;}
+ ul {
+list-style-type: none;
+}
 
- a {text-decoration: none;
-    color: currentColor}
+ a {
+text-decoration: none;
+color: currentColor;
+}
+    
+li {
+list-style-type: none;
+}
 
-.header{
+.button {
+border: none;
+border-radius: 4px;
+padding: 16px 32px;
+width: 169px;
+height: 56px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background-color: var(--color-iris);
+font-weight: 500;
+font-size: 16px;
+color: var(--color-white);
+cursor: pointer;
+}
+
+.button:hover {
+background-color: var(--color-ocean);
+}
+
+
+ //=======================HEADER=======================//
+
+
+.header {
 
 }
 
 .header-nav { 
-
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-navy-blue);
 }
 
-.header-nav-logo {
-
+.header-nav-studio {
+font-weight: 700;
+font-size: 18px;
+line-height: 1.16667;
+letter-spacing: 0.03em;
+color: var(--color-navy-blue);
 }
 
-.header-nav-logo-span {
-    color: #4d5ae5;
+.header-nav-logo-span { 
+color: var(--color-iris);
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.03em;
 }
 
 .header-nav-list {
-
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-navy-blue);
+cursor: pointer;
 }
 
-.header-social-list {
-
+.nav-list-social:hover, :focus {
+color: var(--color-ocean);
 }
 
 .header-social-list-item {
-
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-slate);
+}
+ 
+.header-social-list-item:hover, :focus {
+    color: var(--color-ocean);
 }
 
-/* button */
+//=======================SECTION-1=======================//
 
+.business {
+width: 1440px ;
+height: 600px ;
+}
+
+.business {
+    background-color: var(--color-navy-blue);
+}
+
+.business-text {
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--color-white);
+}
+
+
+//=======================SECTION-2=======================//
+
+.points-one {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--color-navy-blue);
+}
+
+.points-one-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-slate);
+}
+
+//=======================SECTION-3=======================//
+
+.card {
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.02em;
+color: var(--color-navy-blue);
+}
+
+.card-hero {
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--color-navy-blue);
+}
+
+.card-hero-text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--color-slate);
+}
+
+//=======================SECTION-4=======================//
+
+.portfolio {
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--color-navy-blue);
+}
+
+.portfolio-h {
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--color-navy-blue);
+}
+
+.portfolio-h-text {
+font-weight: 400;
+font-size: 16px;
+line-height 24px;
+letter-spacing: 0.02em;
+color: var(--color-slate);
+}
