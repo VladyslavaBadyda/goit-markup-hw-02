@@ -175,6 +175,9 @@ color: var(--color-slate);
 
 //=======================SECTION-3=======================//
 
+.section-team {
+
+}
 
 .section-team {
 background-color: var(--color-cloud);
@@ -250,6 +253,7 @@ color: var(--color-slate);
 
 .footer {
 background-color: var(--color-navy-blue);
+font-family: "Raleway",sans-serif;
 }
 
 .footer-nav-studio {
