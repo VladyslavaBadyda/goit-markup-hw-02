@@ -252,11 +252,32 @@ color: var(--color-slate);
 background-color: var(--color-navy-blue);
 }
 
+.footer-nav-studio {
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--color-iris);
+}
+
+.footer-nav-logo-span {
+font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-cloud);
+}
+
 .footer-text {
 line-height: 1.5; 
 color: var(--color-cloud);
 letter-spacing: 0.02em;
 }
+
+
+
 
 
 
