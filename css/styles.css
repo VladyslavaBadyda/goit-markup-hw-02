@@ -19,10 +19,14 @@
 
 //=======================BODY=========================//
 
+body{
+
+}
+
 body {
-    font-family: "Roboto",sans-serif;
-    color: var(--color-slate);
-    background-color: var(--color-white);
+font-family: "Roboto",sans-serif;
+color: var(--color-slate);
+background-color: var(--color-white);
 }
 
  h1, h2, h3 {
@@ -173,7 +177,7 @@ color: var(--color-slate);
 
 
 .section-team {
-    background-color: var(--color-cloud);
+background-color: var(--color-cloud);
 }
 
 .card {
@@ -209,6 +213,10 @@ color: var(--color-slate);
 //=======================SECTION-4=======================//
 
 .portfolio {
+
+}
+
+.portfolio{
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -236,6 +244,9 @@ color: var(--color-slate);
 
 //==================FOOTER=====================//
 
+.footer {
+
+}
 
 .footer {
 background-color: var(--color-navy-blue);
