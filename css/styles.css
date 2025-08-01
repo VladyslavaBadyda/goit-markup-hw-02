@@ -17,10 +17,9 @@
 --color-dairy: #FCFCFC ;
 }
 
-//=======================BODY=========================//
+//==============================BODY===============================//
 
 body{
-
 }
 
 body {
@@ -30,7 +29,7 @@ background-color: var(--color-white);
 }
 
  h1, h2, h3 {
-font-family: "Raleway", sans-serif;
+font-family: sans-serif;
 }
 
  ul {
@@ -63,11 +62,10 @@ background-color: var(--color-ocean);
 }
 
 
- //=======================HEADER=======================//
+ //============================HEADER==============================//
 
 
 .header {
-
 }
 
 .header-nav { 
@@ -126,10 +124,9 @@ color: var(--color-slate);
 color: var(--color-ocean);
 }
 
-//=======================SECTION-1=======================//
+//============================SECTION-1============================//
 
 .business {
-
 }
 
 .business {
@@ -146,7 +143,7 @@ color: var(--color-white);
 }
 
 
-//=======================SECTION-2=======================//
+//===========================SECTION-2=============================//
 
 
 .points-h2 {
@@ -173,10 +170,9 @@ letter-spacing: 0.02em;
 color: var(--color-slate);
 }
 
-//=======================SECTION-3=======================//
+//===========================SECTION-3=============================//
 
 .section-team {
-
 }
 
 .section-team {
@@ -213,10 +209,9 @@ letter-spacing: 0.02em;
 color: var(--color-slate);
 }
 
-//=======================SECTION-4=======================//
+//===========================SECTION-4=============================//
 
 .portfolio {
-
 }
 
 .portfolio{
@@ -245,10 +240,9 @@ letter-spacing: 0.02em;
 color: var(--color-slate);
 }
 
-//==================FOOTER=====================//
+//================================FOOTER===========================//
 
 .footer {
-
 }
 
 .footer {
@@ -267,11 +261,11 @@ color: var(--color-iris);
 
 .footer-nav-logo-span {
 font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--color-cloud);
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--color-cloud);
 }
 
 .footer-text {
